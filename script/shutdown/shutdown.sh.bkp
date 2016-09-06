@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if pidof -x "vim" >/dev/null; then
+  notify-send "An instance of vim is running"
+  exit 1
+else
+  for i in {1..50}
+  do
+    if pidof -x "chromium" >/dev/null; then
+      wmctrl -c chromium
+      sleep 0.5
+    else
+      sleep 0.2 
+      systemctl --no-ask-password poweroff
+    fi
+  done
+fi
+notify-send "Cannot terminate Chromium"

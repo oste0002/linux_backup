@@ -1,0 +1,175 @@
+#!/usr/bin/env python3
+# dzenify - dzen2 wrapper for libnotify API
+# (c) 2015 Mantas MikulÄ—nas <grawity@gmail.com>
+# Released under WTFPL v2 <http://sam.zoy.org/wtfpl>
+
+import dbus
+import dbus.service
+from dbus.mainloop.glib import DBusGMainLoop
+import os
+import sys
+import subprocess
+
+try:
+    import glib
+except ImportError:
+    from gi.repository import GLib as glib
+
+IGNORED_APP_NAMES = {
+     "Spotify"
+    #"foo", "bar", "baz"
+}
+
+DZEN_ARGS = [
+    "dzen2",
+    "-p", "6",
+#    "-x", "1180",
+    "-x", "725",
+    "-y", "0",
+#    "-w", "500",
+    "-w", "470",
+    "-h", "18",
+    "-l", "1",
+    "-e", "button1=exit",
+    "-sa", "c",
+    "-ta", "c",
+    "-bg", "#111100",
+    "-fg", "#EEEEEE",
+    "-fn", "Inconsolata-12",
+#    "-o", "80",
+]
+
+BG_URGENT = "#6e2222"
+
+NF_SERVICE = "org.freedesktop.Notifications"
+NF_OBJECT = "/org/freedesktop/Notifications"
+NF_INTERFACE = "org.freedesktop.Notifications"
+
+def trace(*args):
+    if os.environ.get("DEBUG"):
+        print("dzenify:", *args, file=sys.stderr)
+
+class DzenifyService(dbus.service.Object):
+    def __init__(self, bus):
+        self._proc = None
+        self._timer = None
+
+        bus_name = dbus.service.BusName(NF_SERVICE, bus,
+                                        allow_replacement=True,
+                                        replace_existing=True)
+
+        super().__init__(bus, NF_OBJECT, bus_name)
+
+    def dzen_feed(self, line, retry=True):
+        trace("dzen_feed(%r)" % line)
+        if not self._proc:
+            self._proc = subprocess.Popen(DZEN_ARGS, stdin=subprocess.PIPE)
+
+        try:
+            self._proc.stdin.write(line.encode("utf-8"))
+            self._proc.stdin.flush()
+            return self._proc.pid
+        except ValueError:
+            # e.g. write to closed pipe
+            if retry:
+                self.dzen_kill()
+                return self.dzen_feed(line, retry=False)
+            else:
+                raise
+
+    def dzen_kill(self):
+        trace("dzen_kill()")
+        if self._proc:
+            self._proc.stdin.close()
+            self._proc.terminate()
+        self._proc = None
+
+    def timer_set(self, timeout):
+        trace("timer_set(%d)" % timeout)
+        if self._timer:
+            glib.source_remove(self._timer)
+        self._timer = glib.timeout_add(timeout, self.timer_callback)
+
+    def timer_cancel(self):
+        trace("timer_cancel()")
+        if self._timer:
+            glib.source_remove(self._timer)
+        self._timer = None
+
+    def timer_callback(self):
+        trace("timer_callback()")
+        self.dzen_kill()
+        self._timer = None
+        return False
+
+    @dbus.service.method(NF_INTERFACE, out_signature="ssss")
+    def GetServerInformation(self):
+        return ("dzenify", "nullroute.eu.org", "1.0", "1.2")
+
+    @dbus.service.method(NF_INTERFACE, out_signature="as")
+    def GetCapabilities(self):
+        return ["body", "dzen-markup"]
+
+    @dbus.service.method(NF_INTERFACE, in_signature="susssasa{sv}i", out_signature="u")
+    def Notify(self, app_name, id, icon, summary, body, actions, hints, timeout):
+        trace("Notify(%r, ...)" % app_name)
+
+        if app_name in IGNORED_APP_NAMES:
+            return id or 42
+
+        # process hints
+
+        trace("got hints:", hints)
+
+        urgency = int(hints.get("urgency", 1))
+        raw_summary = bool(hints.get("dzen-summary-markup", False))
+        raw_body = bool(hints.get("dzen-body-markup", False))
+
+        summary_bg = BG_URGENT if urgency >= 2 else ""
+
+        if not raw_summary:
+            summary = summary.replace("^", "^^")
+        if not raw_body:
+            body = body.replace("^", "^^")
+
+        # generate dzen input
+
+        text = ""
+        text += "^tw()^bg(%s)%s\n" % (summary_bg, summary)
+        text += "^cs()\n"
+        if body:
+            text += "%s\n" % body
+            text += "^uncollapse()\n"
+        else:
+            text += "^collapse()\n"
+        id = self.dzen_feed(text)
+
+        # set timeout for closing dzen
+
+        if urgency >= 2:
+            self.timer_cancel()
+        else:
+            if timeout <= 0:
+                timeout = 5*1000
+            self.timer_set(min(timeout, 60*1000))
+
+        return id
+
+    @dbus.service.method(NF_INTERFACE, in_signature="u")
+    def CloseNotification(self, id):
+        # Ignore id, since it *might* possibly have changed. For example:
+        #  * client calls Notify(), which returns dzen PID as id=1234,
+        #  * client lets it time out,
+        #  * client sends Notify(replace=1234), which returns a new dzen PID,
+        #  * spec requires that Notify() must return the same id, so the client
+        #    doesn't update its records (even though we _did_ return a new id)
+        #  * client sends Close(1234)
+        self.dzen_kill()
+
+DBusGMainLoop(set_as_default=True)
+
+bus = dbus.StarterBus()
+
+obj = DzenifyService(bus)
+
+glib.MainLoop().run()

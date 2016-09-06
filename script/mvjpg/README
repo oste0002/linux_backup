@@ -1,0 +1,6 @@
+Run with 
+
+  $ find . -type f -name \*.JPG -exec ~/script/mvjpg/mvjpg.sh {} +
+
+from the dierctory which contains the .JPG-files to renome them to .jpg
+

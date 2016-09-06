@@ -1,0 +1,2 @@
+< grawity> notify-send "foo ^fg(red)bar^fg()" â "foo ^fg(red)bar^fg()"
+< grawity> notify-send -h int:dzen-title:1 "foo ^fg(red)bar^fg()" â "foo bar"

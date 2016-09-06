@@ -1,0 +1,80 @@
+URxvt.depth:            32
+!URxvt.background:       rgba:0000/0000/0000/cc00
+URxvt.background:       rgba:0000/0000/0000/f500
+URxvt.transparent:      false
+
+!URxvt.font:             xft:terminus:size=12
+!URxvt.font:             xft:Inconsolata\\-dz:size=12
+
+URxvt.font:              xft:Inconsolata:size=16:antialias=true:hinting=true
+URxvt.boldFont:          xft:Inconsolata:bold:size=16:antialias=true:hinting=true
+URxvt.italicFont:        xft:Inconsolata:italic:size=16:antialias=true:hinting=true
+!URxvt.italicFont:        xft:Bitstream Vera Sans Mono:italic:autohint=true:pixelsize=12
+!URxvt.boldItalicFont:    xft:Bitstream Vera Sans Mono:bold:italic:autohint=true:pixelsize=12
+
+!URxvt.font:  -xos4-terminus-medium-*-*-*-18-*-*-*-*-*-iso8859-15,xft:terminus:pixelsize:16
+!URxvt*boldFont:  -xos4-terminus-bold-*-*-*-18-*-*-*-*-*-iso8859-15,xft:terminus:bold:pixelsize:16
+!URxvt*italicFont:  xft:Bitstream Vera Sans Mono:italic:autohint=true:pixelsize=16
+!URxvt*boldItalicFont:  xft:Bitstream Vera Sans Mono:bold:italic:autohint=true:pixelsize=16
+
+URxvt.termName:         rxvt-unicode
+URxvt.foreground:       #d8dbff
+URxvt.scrollBar:        false
+!URxvt.allow_bold:       true
+URxvt.cursorUnderline:  false
+URxvt.cursorBlink:      false
+!URxvt.highlightColor:       #ffffda
+URxvt.highlightColor:       #66ffd8
+URxvt.highlightTextColor:   #000000
+URxvt.cursorColor:          #d8dbff
+URxvt.cursorColor2:         #000000
+
+URxvt.colorBD:          #d8dbff
+URxvt.colorIT:          #7ac2ff
+
+! URxvt.perl-lib:         ~/.urxvt/ext/
+URxvt.perl-ext-common:  default,matcher,vtwheel
+URxvt.url-launcher:     /usr/bin/chromium
+URxvt.matcher.button:   1
+
+URxvt.urgentOnBell:     true
+URxvt.visualBell:       false
+
+URxvt.met8:             true
+
+!Xft.dpi:                96
+!Xft.antialias:          true
+!Xft.hinting:            full
+
+! black
+URxvt.color0:           #3a3a3a
+! bright_black
+URxvt.color8:           #404040
+! red
+URxvt.color1:           #ee5e4d
+! bright_red
+URxvt.color9:           #f3977d
+! green
+URxvt.color2:           #0c7b1c
+! bright_green
+URxvt.color10:          #70d670
+! yellow
+URxvt.color3:           #fff04e
+! bright_yellow
+URxvt.color11:          #ffffda
+! blue
+URxvt.color4:           #6699ff
+! bright_blue
+URxvt.color12:          #7AC2FF
+! magenta
+URxvt.color5:           #ef5aaa
+! bright_magenta
+URxvt.color13:          #f58ea6
+! cyan
+URxvt.color6:           #198AA9
+! bright_cyan
+URxvt.color14:          #39B8BB
+! white
+URxvt.color7:           #aaaaaa
+! bright_white
+URxvt.color15:          #ececec
