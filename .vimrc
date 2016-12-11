@@ -42,39 +42,43 @@ syntax on
 
 set noexpandtab
 set title
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 " set softtabstop=2
+"
 set number
-
-
+set hlsearch
 set nofoldenable
-" set nocursorline
+set cursorline
 
 " hi clear CursorLine
 " augroup CLClear
-" autocmd! ColorScheme * hi clear CursorLine
+" autocmd! ColorScheme * hi CursorLine
 " augroup END
 
-" hi CursorLineNR cterm=bold ctermfg=LightGray ctermbg=Black
-" augroup CLNRSet
-" autocmd! ColorScheme * hi CursorLineNR cterm=bold
-" augroup END
+"	augroup CursorLine
+"	  au!
+"	  au VimEnter,WinEnter,BufWinEnter * setlocal cursorline
+"	  au WinLeave * setlocal nocursorline
+"	augroup END
 
-hi cSpaceError ctermbg=Black
-augroup CLNRSet
-autocmd! ColorScheme * hi cSpaceError ctermbg=Black
+highlight CursorLine cterm=NONE ctermbg=234
+highlight Search cterm=NONE ctermbg=037 ctermfg=017
+
+highlight cSpaceError ctermbg=Black
+
+augroup CursorLine
+	au!
+  au VimEnter,WinEnter,BufWinEnter * setlocal cursorline
+  au WinLeave * setlocal nocursorline
 augroup END
 
-hi colorcolumn ctermbg=Darkcyan
-augroup CLNRSet
-autocmd! ColorScheme * hi cSpaceError ctermbg=Darkcyan
-augroup END
+highlight Pmenu ctermbg=lightblue
+highlight Pmenusel ctermbg=lightgreen
 
-hi SpellBad ctermbg=Darkcyan
-augroup CLNRSet
-autocmd! ColorScheme * hi cSpaceError ctermbg=Darkcyan
-augroup END
+highlight colorcolumn ctermbg=Darkcyan
+
+highlight SpellBad ctermbg=Darkcyan
 
 
 autocmd FileType tex setlocal spell spelllang=en_us,sv
@@ -88,15 +92,18 @@ let g:tex_flavor='latex'
 let g:Tex_GotoError=0
 let c_space_errors=1
 
+
 imap <C-g> <Plug>IMAP_JumpForward
 nmap <C-g> <Plug>IMAP_JumpForward
 
-nnoremap <silent> <c-k> :call smooth_scroll#up(1, 1, 1)<CR>
 nnoremap <silent> <c-j> :call smooth_scroll#down(1, 1, 1)<CR>
+nnoremap <silent> <c-k> :call smooth_scroll#up(1, 1, 1)<CR>
 nnoremap <silent> <c-u> :call smooth_scroll#up(&scroll, 15, 1)<CR>
 nnoremap <silent> <c-d> :call smooth_scroll#down(&scroll, 15, 1)<CR>
 nnoremap <silent> <c-b> :call smooth_scroll#up(&scroll*2, 10, 1)<CR>
 nnoremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 10, 1)<CR>
+
+nnoremap <C-c> :noh<CR>
 
 autocmd FileType tex nnoremap <silent> <c-j> gj
 autocmd FileType tex nnoremap <silent> <c-k> gk

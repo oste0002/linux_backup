@@ -1,0 +1,457 @@
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/V9Gq87vs6uctBbQn?key=TXd5byqD542Xl6RCWKGBOlSwejHyvg31'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/vSt5Q19xRUUpJAEl?key=MwFSYm8KBCKXWjrevQldlfUoqVAgXB2c'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/6mmFtXp9bNOy12O1?key=1a3q9nX0dqEcIMLjyahLNj98t7EbIJCn'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/rZZyw82n7D18zdiL?key=EAEpweeSuNaUz47UM7Sr533Qp7UkRe9y'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/OG6xsq3blFMdrRcB?key=0MLmSqXLc1V2V4RJHsuSsZCB2ZJbQNBf'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/Ydft0nOB9iBOQTfE?key=mJ4W8JnmLQrJ2fRxTBLx4OPbbzi9HBFu'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/REyOMCCtH71uDnvh?key=hIHlmgZJW5NLYGZxvIP5PgXM9FEzlIE0'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/iBJ5PXoabDbIEH12?key=XVIA24RqA8Lq4I4HgAJun518CymdHPOT'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/3bYxwXMQBwDu3LJo?key=jkWSMfd5kkjSyEoKjuk6NkGN1IDeaBfO'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/cPGRVz78TGAHzftL?key=eAfbTpPGpSQ6Tehe7l4WlQdKzy7pAmP6'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/23W4lhzQSv6skczq?key=SaoMg0smWg9GUbd7b9rROtFiekB2v5Jj'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/4nCC6cF7s9iUALyv?key=dWVmzP6nLp2IuJaoKbq1Fw1Jb71jydmw'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/dFntXl3geVhdGNH0?key=2pNzVI6oWgg5kZT7U14PtKhnBIYvygB1'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/G6YwlD03SieszshL?key=pYJxt9Pw6QfVFiPzuaVZxp8yyiGkYtry'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/Go6W0Mj1mf1zjtnA?key=dlKbh2w194Z8zzFJlCI8cuiOFxzOyqjR'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/cIubWmjhr3gJBgjY?key=JXsIJd6FdiePxsg2b4QmdYfcTQbZnpyy'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/VdEcbRtqQxpUbf95?key=DeaixY8jEoNac9jcBNJBD6Ohxb3aLlnZ'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/iCiEUM54h5mdUD9K?key=1OoC7Nw4uWJZxHlW0xnAPcz2Nj1kmROV'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/Fld2LpQv47efOg4V?key=Lftazu7PICAjNGy4JOn7zSgl6iIcR8hu'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/IrnGK2CpPTmUfhCb?key=w5NmRD5xFfTMoQktvLOvjPMwpowb4f4F'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/xtyBRqDBJQCasSOR?key=tjATNWUEWypwX0iuMXTS2FLoOHqZNvfo'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/XtnufR7tIqZjQCfq?key=O1oYLzYNr1JTuPr8dauYfFvQH7azaDfu'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/2Uvcmx80YRfpiENF?key=CuUE7HXwMhsgjtlOqu2nLLSWzdV0F8lK'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/zkxPPqIJ5cDyR08G?key=ctCNBKnsnLZjSDZGFDKHTlUZMTbLHTQo'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/DvXrOB7r8rTs7UfC?key=snzCZ4nPxOs1UUyHFBIveFZbWgTAVlBA'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/N6BCHMyouTlICqGB?key=LdEUMfyKk3v7pm4ImhRxWChezZLXO91d'
+
+** (pcmanfm:6558): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/b7FbqgGynwETCzLR?key=SHqq8AYfRRbgg6n0CoeInh6wCZDZ9IbX'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://support.insynchq.com/'
+/usr/local/bin/xdg-open: line 447: sensible-browser: command not found
+xdg-open: no method available for opening 'https://www.insynchq.com/connect/2jtBobqXo7iTlAC0?key=EmnTnPh0Qf2VbNRpAudxUI6c1fxn3ffq'
+
+(insync:5662): GConf-WARNING **: Got Disconnected from DBus.
+
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+insync: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+insync: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+insync: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+insync: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+
+(insync:777): GConf-WARNING **: Got Disconnected from DBus.
+
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+insync: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+insync: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+insync: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+insync: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+
+(insync:561): GConf-WARNING **: Got Disconnected from DBus.
+
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+
+(insync:553): GConf-WARNING **: Got Disconnected from DBus.
+
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+insync: Fatal IO error 104 (Connection reset by peer) on X server :0.0.
+insync: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+
+(insync:573): GConf-WARNING **: Got Disconnected from DBus.
+
+Fatal Python error: Segmentation fault
+
+Thread 0x00007f8464a8d700:
+  File "isyncd/linux/fswatch.py", line 278 in _pull_loop
+  File "threading.py", line 763 in run
+  File "threading.py", line 810 in __bootstrap_inner
+  File "threading.py", line 783 in __bootstrap
+
+Thread 0x00007f84652ce700:
+  File "SocketServer.py", line 155 in _eintr_retry
+  File "SocketServer.py", line 236 in serve_forever
+  File "isyncd/linux/portable/unix_socket_server_portable.py", line 76 in __serve
+  File "threading.py", line 763 in run
+  File "threading.py", line 810 in __bootstrap_inner
+  File "threading.py", line 783 in __bootstrap
+
+Thread 0x00007f8472f0a700:
+  File "gevent/hub.py", line 179 in run
+
+Current thread 0x00007f8483f61700:
+  File "__main__insync__.py", line 103 in main
+  File "__main__insync__.py", line 166 in <module>
+  File "__main__.py", line 128 in <module>
+  File "<string>", line 6 in <module>
+insync: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+insync: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+Fatal Python error: Segmentation fault
+
+Thread 0x00007fa97bfff700:
+  File "isyncd/linux/fswatch.py", line 278 in _pull_loop
+  File "threading.py", line 763 in run
+  File "threading.py", line 810 in __bootstrap_inner
+  File "threading.py", line 783 in __bootstrap
+
+Thread 0x00007fa980efb700:
+  File "SocketServer.py", line 155 in _eintr_retry
+  File "SocketServer.py", line 236 in serve_forever
+  File "isyncd/linux/portable/unix_socket_server_portable.py", line 76 in __serve
+  File "threading.py", line 763 in run
+  File "threading.py", line 810 in __bootstrap_inner
+  File "threading.py", line 783 in __bootstrap
+
+Thread 0x00007fa98eb48700:
+  File "gevent/hub.py", line 179 in run
+
+Thread 0x00007fa99fb9f700:
+  File "__main__insync__.py", line 103 in main
+  File "__main__insync__.py", line 166 in <module>
+  File "__main__.py", line 128 in <module>
+  File "<string>", line 6 in <module>
+
+(insync:602): GConf-WARNING **: Got Disconnected from DBus.
+
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+
+(insync:507): GConf-WARNING **: Got Disconnected from DBus.
+
+Fatal Python error: Segmentation fault
+
+Thread 0x00007fba065a0700:
+  File "isyncd/linux/fswatch.py", line 278 in _pull_loop
+  File "threading.py", line 763 in run
+  File "threading.py", line 810 in __bootstrap_inner
+  File "threading.py", line 783 in __bootstrap
+
+Thread 0x00007fba06de1700:
+  File "SocketServer.py", line 155 in _eintr_retry
+  File "SocketServer.py", line 236 in serve_forever
+  File "isyncd/linux/portable/unix_socket_server_portable.py", line 76 in __serve
+  File "threading.py", line 763 in run
+  File "threading.py", line 810 in __bootstrap_inner
+  File "threading.py", line 783 in __bootstrap
+
+Thread 0x00007fba14a1b700:
+  File "gevent/hub.py", line 179 in run
+
+Thread 0x00007fba25a72700:
+  File "__main__insync__.py", line 103 in main
+  File "__main__insync__.py", line 166 in <module>
+  File "__main__.py", line 128 in <module>
+  File "<string>", line 6 in <module>
+insync: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+Fatal Python error: Segmentation fault
+
+Thread 0x00007f4c0bfff700:
+  File "isyncd/linux/fswatch.py", line 278 in _pull_loop
+  File "threading.py", line 763 in run
+  File "threading.py", line 810 in __bootstrap_inner
+  File "threading.py", line 783 in __bootstrap
+
+Thread 0x00007f4c10f6f700:
+  File "SocketServer.py", line 155 in _eintr_retry
+  File "SocketServer.py", line 236 in serve_forever
+  File "isyncd/linux/portable/unix_socket_server_portable.py", line 76 in __serve
+  File "threading.py", line 763 in run
+  File "threading.py", line 810 in __bootstrap_inner
+  File "threading.py", line 783 in __bootstrap
+
+Thread 0x00007f4c1eba9700:
+  File "gevent/hub.py", line 179 in run
+
+Thread 0x00007f4c2fc00700:
+  File "__main__insync__.py", line 103 in main
+  File "__main__insync__.py", line 166 in <module>
+  File "__main__.py", line 128 in <module>
+  File "<string>", line 6 in <module>
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+insync.py: cannot connect to X server :0.0
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+insync.py: cannot connect to X server :0.0
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+insync.py: cannot connect to X server :0.0
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+insync.py: cannot connect to X server :0.0
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+insync.py: cannot connect to X server :0.0
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+                                                                                                     ./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+insync.py: cannot connect to X server :0
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+insync.py: cannot connect to X server :1
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+insync.py: cannot connect to X server :0.0
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+insync.py: cannot connect to X server :0.0
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+insync.py: cannot connect to X server :0.0
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType
+./insync: symbol lookup error: /usr/lib/libpangoft2-1.0.so.0: undefined symbol: FcWeightFromOpenType

@@ -19,7 +19,7 @@ xset r rate 450 30 &
 xset m 4/3 0 &
 
 if ! [xrandr | grep "HDMI1 connected" > /dev/null]; then
-  xrandr --output HDMI1 --left-of eDP1 --primary &
+  xrandr --output HDMI1 --right-of eDP1 --primary &
 fi
 
 xbacklight -set 50 &

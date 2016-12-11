@@ -1,0 +1,11 @@
+[Default Applications]
+application/pdf=okular.desktop
+application/zip=userapp-comsol-S1HOOX.desktop
+text/x-csrc=userapp-vim-ZTMVTX.desktop
+image/x-eps=inkscape.desktop
+
+[Added Associations]
+application/pdf=chromium.desktop;okular.desktop;kde4-okularApplication_pdf.desktop;zathura-pdf-poppler.desktop;
+application/zip=libreoffice-startcenter.desktop;userapp-comsol-S1HOOX.desktop;
+text/x-csrc=userapp-vim-ZTMVTX.desktop;
+image/x-eps=inkscape.desktop;

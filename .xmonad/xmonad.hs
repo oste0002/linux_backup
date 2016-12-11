@@ -316,7 +316,7 @@ myKeys' =  [
  ,((mod4Mask,                 xK_comma),        sendMessage (IncMasterN (-1)))
  ,((mod4Mask .|. shiftMask,   xK_apostrophe),   spawnAndDo (insertPosition Master Newer) "chromium --enable-overlay-scrollbar")
  ,((mod4Mask .|. controlMask, xK_apostrophe),   spawnAndDo (insertPosition Master Newer) "chromium --enable-overlay-scrollbar -incognito")
- ,((mod4Mask .|. shiftMask,   xK_adiaeresis),   spawnAndDo (insertPosition Master Newer) "thunderbird")
+  -- ,((mod4Mask .|. shiftMask,   xK_adiaeresis),   spawnAndDo (insertPosition Master Newer) "thunderbird")
  ,((mod4Mask .|. controlMask, xK_aring),        spawn "/home/oskar/script/shutdown/reboot.sh")
  ,((mod5Mask .|. shiftMask,   xK_aring),        spawn "/home/oskar/script/shutdown/reboot.sh")
  ,((mod4Mask,                 xK_Pause),        spawn "sudo /opt/script/psmouse/psmouse.sh")

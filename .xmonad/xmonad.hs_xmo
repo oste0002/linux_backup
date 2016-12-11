@@ -1,0 +1,159 @@
+import XMonad
+import XMonad.Hooks.DynamicLog
+import XMonad.Hooks.ManageDocks
+import XMonad.Hooks.EwmhDesktops
+import XMonad.Hooks.Place               -- place floats at appropriate positions
+import XMonad.Hooks.FadeWindows         -- transparency
+import XMonad.Hooks.InsertPosition
+import XMonad.Util.Run(spawnPipe)       -- statusbar
+import XMonad.Util.EZConfig             -- keybinds
+import XMonad.Actions.SpawnOn           -- spawn on specific workspace
+import XMonad.Layout.IM                 -- for gimp layout
+import XMonad.Layout.Reflect
+import XMonad.Layout.PerWorkspace
+import XMonad.Layout.ResizableTile
+import XMonad.Actions.CycleWS           -- toggle workspace
+import XMonad.Layout.Gaps               -- gaps
+import XMonad.Layout.Renamed            -- modify layout names
+import XMonad.Layout.Minimize           -- minimization
+-------
+import qualified XMonad.StackSet as W
+import XMonad.Hooks.ManageHelpers
+import XMonad.Layout.NoBorders
+-------
+import System.IO
+
+main = do
+    xmproc <- spawnPipe "/usr/bin/xmobar /home/oskar/.xmobarrc"
+    xmonad $ ewmh defaultConfig
+        { manageHook = placeHook myPlacement <+>  manageSpawn <+> manageDocks <+> myManageHook
+                       <+> manageHook defaultConfig
+        , workspaces = myWorkspaces
+        , layoutHook = avoidStruts (smartBorders (gaps [(L,0),(R,0)] (layoutHook')))
+        , logHook = dynamicLogWithPP xmobarPP
+                { ppOutput = hPutStrLn xmproc
+                , ppTitle = xmobarColor "orange" "" . shorten 120
+                } >> fadeWindowsLogHook myFadeHook
+        , modMask = mod4Mask
+        , handleEventHook = fadeWindowsEventHook <+> fullscreenEventHook
+        , focusedBorderColor = "#000000"
+        , normalBorderColor = "#000000"
+        , borderWidth = 6
+        , startupHook = myStartupHook
+        , terminal = myTerminal
+        }
+        `additionalKeysP` myKeys
+        `additionalKeys` myKeys'
+
+
+-- Applications
+myTerminal = "urxvt"
+
+
+-- Placement of floats
+-- withGaps (top, right, bottom, left) forbidden areas from screen border in pixels
+-- smart (x-pos, y-pos) prefered placement position in fraction of 1
+myPlacement = withGaps (0, 0, 40, 0) $ smart (0.973,1)
+
+-- Startup
+myStartupHook  = do
+        spawn "compton -cCG -r 6 -I 0.028 -D 5 -o 0.95 -l -9 -t -9 -f --backend glx --vsync opengl-mswc"
+        spawn "exec /home/oskar/script/wallpaper/wallpaperScript.sh"
+        spawn "trayer --edge top --align right --SetDockType true --SetPartialStrut true --expand true --width 6 --transparent true --alpha 0 --tint 0x000000 --height 16"
+--        spawn "batti"
+--        spawn "insync start"
+        spawn "hhp"
+
+
+-- Workspaces
+myWorkspaces  = ["1","2","3","4","5","6:gimp","7:test"]
+layoutHook'   = onWorkspaces ["1","5","7:test"] normalLayout $
+                onWorkspaces ["2","3","4"]  terminalLayout $
+                onWorkspaces ["6:gimp"] gimpLayout $
+                normalLayout
+
+normalLayout  = renamed [CutWordsLeft 3] $
+                minimize $ tiled ||| Mirror tiled ||| Full
+  where         tiled = ResizableTall 1 (2/100) (0.68) []
+
+terminalLayout  = renamed [CutWordsLeft 3] $
+                minimize $ tiled ||| Mirror tiled ||| Full
+  where         tiled = ResizableTall 1 (1/100) (1/2) []
+
+gimpLayout    = renamed [CutWordsRight 5] $ minimize $ withIM (0.11) (Role "gimp-toolbox") $
+                reflectHoriz $
+                withIM (0.15) (Role "gimp-dock") Full
+
+
+-- Layout
+myManageHook = composeAll
+        [ className =? "Xfce4-notifyd" --> doIgnore
+        , title =? "qiv" --> doCenterFloat
+        , resource =? "Open File" --> doCenterFloat
+        , className =? "Skype" --> doFloat
+        , className =? "Arandr" --> doFloat
+        , className =? "Pavucontrol" --> doFloat
+        , className =? "Pcmanfm" --> doFloat
+        , isFullscreen --> doFullFloat
+        ]
+
+
+-- Transparancy
+myFadeHook = composeAll
+        [ opaque
+        , className =? "Skype" --> transparency 0.05
+        , isUnfocused --> transparency 0.2
+        , className =? "Chromium" <&&> isUnfocused --> transparency 0.1
+        , className =? "MuPDF" <&&> isUnfocused --> transparency 0.1
+        , className =? "TexMaker" <&&> isUnfocused --> transparency 0.1
+        , className =? "Thunderbird" <&&> isUnfocused --> transparency 0.1
+        , className =? "MPlayer" <&&> isUnfocused --> transparency 0
+        ]
+
+
+-- Hotkeys
+spotify command = spawn ("dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player." ++ command)
+
+myKeys = [
+  ("M-S-z",        spawn "slimlock")
+ ,("M-C-x",        spawn "slimlock & sleep 0.4 ; sudo systemctl suspend")
+ ,("M-C-p",        spawn "sudo systemctl poweroff")
+ ,("M-m",          withFocused minimizeWindow >> windows W.focusDown)
+ ,("M-S-m",        sendMessage RestoreNextMinimizedWin)
+ ,("M-q",          spawn "killall trayer ; killall hhp ; xmonad --recompile ; xmonad --restart")
+ ,("M-y",          sendMessage MirrorExpand >> sendMessage MirrorExpand)
+ ,("M-u",          sendMessage MirrorShrink >> sendMessage MirrorShrink)
+ ,("M-S-o",        sendMessage $ IncGap 345 L)
+ ,("M-i",          sendMessage $ IncGap 345 R)
+ ,("M-S-i",        sendMessage $ DecGap 345 L)
+ ,("M-o",          sendMessage $ DecGap 345 R)
+ ,("M-j",          windows W.focusUp)
+ ,("M-k",          windows W.focusDown)
+ ,("M-S-j",        windows W.swapUp)
+ ,("M-S-k",        windows W.swapDown)
+ ,("M-e",          spawnAndDo (insertPosition End Newer) "pcmanfm")
+ ,("M-p",          spawn "dmenu_run")
+ ,("M-S-<Return>", spawnAndDo (insertPosition End Newer) "urxvt")
+ ,("M1-<Return>",  spawnAndDo doFloat "urxvt -bg rgba:0000/1100/2200/9900 -fg rgba:ee00/ee00/dd00/ee00 -g 75x30")
+ ,("M-<Return>",   spawnAndDo doFloat "urxvt -bg rgba:2200/1100/0000/9900 -fg rgba:cc00/ee00/ee00/ee00 -g 75x61")
+ ,("C-<Print>",    spawn "killall hhp ; sleep 0.2; scrot -se 'mv $f ~/.scrot/' ; hhp")
+ ,("<Print>",      spawn "sleep 0.2; scrot -e 'mv $f ~/.scrot/'")
+ ,("<XF86AudioRaiseVolume>",   spawn "amixer -D pulse set Master 3%+")
+ ,("<XF86AudioLowerVolume>",   spawn "amixer -D pulse set Master 3%-")
+ ,("<XF86AudioMute>",          spawn "amixer set Speaker toggle; amixer set Master toggle")
+ ,("M-S-<F8>",     spotify "PlayPause")
+ ,("M-S-<F9>",     spotify "Previous")
+ ,("M-S-<F10>",    spotify "Next")
+ ,("<XF86MonBrightnessUp>",    spawn "xbacklight-inc")
+ ,("<XF86MonBrightnessDown>",  spawn "xbacklight-dec")
+ ,("<F12>",        spawn "exec /home/oskar/script/wallpaper/wallpaperScript.sh")
+ ,("M-S-<F12>",    spawn "exec /home/oskar/script/wallpaper/wallpaperScriptOther.sh")
+ ]
+
+myKeys' =  [
+  ((mod4Mask, 0xa7),                            toggleOrView "5" <+> spawn "exec /home/oskar/script/spotify/startSpotify.sh")
+ ,((mod4Mask .|. shiftMask,   xK_apostrophe),   spawnAndDo (insertPosition Master Newer) "chromium")
+ ,((mod4Mask .|. shiftMask,   xK_adiaeresis),   spawnAndDo (insertPosition Master Newer) "thunderbird")
+ ,((mod4Mask .|. controlMask, xK_aring),        spawn "sudo systemctl reboot")
+ ,((0,                        xK_Help),         spawn "sudo systemctl restart netctl-auto@wlp1s0")
+ ]

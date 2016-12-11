@@ -1,0 +1,7 @@
+open_with X
+open_with.self
+open_with self
+shell 
+shell ./comsol
+
+delete

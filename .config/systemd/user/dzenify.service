@@ -1,0 +1,9 @@
+[Unit]
+Description=Notification daemon
+
+[Service]
+Type=simple
+ExecStart=/home/oskar/script/dzenify/dzenify.py
+
+[Install]
+WantedBy=multi-user.target
